@@ -1,0 +1,165 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(241, 241, 253);
+}
+
+.container{
+    padding: 130px 150px;
+}
+
+p{
+    margin: 0;
+}
+
+
+.gift-membership-image-div,
+.gift-membership-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gift-membership-image{
+    width: 110px;
+    z-index: 2;
+}
+
+.gift-membership-text{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.second{
+    margin-top: 35px;
+}
+
+
+
+.second .us-discovery-div{
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px 25px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third .us-discovery-div{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px 25px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.us-discovery-text{
+    margin-top: 10px;
+    width: 440px;
+}
+
+.third .us-discovery-text{
+    margin-top: 20px;
+    width: 450px;
+}
+
+.us-discovery-heading{
+    font-size: 17px;
+}
+
+.us-discovery-text p{
+    margin-top: 10px;
+}
+
+.us-discovery-checkbox-main{
+    border-radius: 5px;
+    background-color: rgb(241, 241, 253);
+    padding: 15px;
+}
+
+.us-discovery-checkbox{
+    margin-bottom: 10px;
+}
+
+.amount{
+    margin-right: 2px;
+}
+
+.months{
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+.us-discovery-heading{
+    font-weight: bold;
+}
+
+
+input[type='radio']{
+    height: 20px;
+    width: 20px;
+}
+
+
+.us-discovery-checkbox{
+    display: flex;
+    column-gap: 5px;
+}
+
+.amount-and-months{
+    display: flex;
+    margin-top: 4px;
+}
+
+.most-popular-button{
+    position: absolute;
+    background-color: rgb(115, 115, 247);
+    color: white;
+    height: 26px;
+    border: none;
+    width: 200px;
+    border-radius: 0 0 10px 0;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 2;
+}
+
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.disclaimer{
+    padding: 0 200px;
+    margin-top: 30px;
+    font-size: 13px;
+    color: grey;
+    
+    flex: 1;
+}
+
+.order-now{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.order-now-button{
+    background-color: rgb(253, 104, 104);
+    color: white;
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+}
+
+.order-now-button:hover{
+    cursor: pointer;
+}
